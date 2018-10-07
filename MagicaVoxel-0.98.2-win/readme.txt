@@ -1,8 +1,8 @@
 [MagicaVoxel : 8-bit Voxel Editor & Renderer]
 ================================
-date    : 4/1/2017
+date    : 9/26/2018
 
-version : 0.98.2
+version : 0.99.2a
 
 os      : Win32, MacOS 10.7+
 
@@ -12,8 +12,7 @@ twitter : @ ephtracy
 
 [Credits]
 ================================
-@marcoapc_art : anim/horse, deer
-
-@aronegal : anim/T-Rex
-
-@magicfunstore : palette/pal2.png
+Icon : Font Awesome Free Version : https://fontawesome.com/
+Icon : Google Material Design : https://material.io/tools/icons/?style=baseline
+Icon : Ionicons : https://ionicons.com/
+SDF Font : https://github.com/evanw/font-texture-generator

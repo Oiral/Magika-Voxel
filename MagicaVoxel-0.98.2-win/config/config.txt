@@ -1,43 +1,30 @@
-// [EPHTRACY 12/12/2016]
+// [EPHTRACY 9/26/2018]
 
 workspace
 (
 	// notice :
-	// 1. use '$' for current directory, otherwise use actual full path
+	// 1. use '$' for current directory, otherwise use full path
 	// 2. use single '/' or '\' in the path
-	// 3. don't have empty space at ends of path
+	// 3. don't have empty space at ends of the path
 
 	dir_model		= [[$/vox]]
 	dir_pattern		= [[$/vox]]
+	dir_palette		= [[$/palette]]
+	dir_export		= [[$/export]]
+	dir_snapshot		= [[$/export]]
+	dir_xs_shader		= [[$/shader]]
 )
 
 view
 (
-	// 0 ~ 255
-	ground_color	= '179 217 255'
+	// 0.5 ~ 3.0 : scale ui for high dpi screen
+	ui_scale	= '1.0'
 
 	// 0 ~ 255
-	edge_color		= '255 51 102'
+	edge_color	= '17 17 17'//'255 51 102'
 
 	// 0.0 ~ 1.0
 	ambient_color	= '0.19 0.18 0.26'
-	
-	// 0.0 ~ 1.0
-	bgColor_top		= '0.1 0.1 0.1'
-	bgColor_bottom	= '0.4 0.4 0.4'
-)
-
-bake
-(
-	perface			= '0'	// per face or per vertex [0, 1]
-	ambient			= '0.1'	// constant ambient [0.0 - 1.0]
-	gamma			= '1.0' // gamma [1.0, 2.2]
-	
-	scale			= '1 1 1'
-	pivot			= '0.5 0.5 0.0'
-	tc_offset		= '0.5 0.5'
-	cw				= '0'
-	axis			= 'XYZ'
 )
 
 file_iso
